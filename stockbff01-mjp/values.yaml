@@ -1,0 +1,11 @@
+global:
+  ingressSubdomain: gsi-cloudnative-ocp-clu-7ec5d722a0ab3f463fdc90eeb94dbc70-0000.sng01.containers.appdomain.cloud
+  tlsSecretName: gsi-cloudnative-ocp-cluster
+
+<app-chart-name>:
+  replicaCount: 3
+  
+  ingress:
+    enabled: true
+    tlsSecretName: gsi-cloudnative-ocp-cluster
+
