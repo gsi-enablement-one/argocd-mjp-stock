@@ -3,7 +3,7 @@ global:
   tlsSecretName: gsi-cloudnative-ocp-cluster
 
 stockbff01-mjp:
-  replicaCount: 6
+  replicaCount: 1
   
   ingress:
     enabled: true
