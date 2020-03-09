@@ -1,4 +1,0 @@
-dependencies:
-- name: stockbff01-mjp
-  version: 1.0.0-2
-  repository: http://artifactory.gsi-cloudnative-ocp-clu-7ec5d722a0ab3f463fdc90eeb94dbc70-0000.sng01.containers.appdomain.cloud/artifactory/generic-local/gsi-cloudnative-team/
