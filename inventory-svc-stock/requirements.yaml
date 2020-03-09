@@ -1,4 +1,4 @@
 dependencies:
 - name: inventory-svc-stock
-  version: 0.0.7
+  version: 0.0.9
   repository: https://artifactory-tools.gsi-learning-ocp311-clu-7ec5d722a0ab3f463fdc90eeb94dbc70-0001.eu-gb.containers.appdomain.cloud/artifactory/generic-local/gsi-cloudnative-squad/
