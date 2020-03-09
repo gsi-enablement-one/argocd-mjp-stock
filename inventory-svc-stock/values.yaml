@@ -10,5 +10,7 @@ stockbff01-mjp:
 
   ingress:
     enabled: false
+    host: inventory-svc-stock
+    namespaceInHost: true
     tlsSecretName: gsi-learning-ocp311-cluster
 
