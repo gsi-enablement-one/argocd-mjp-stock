@@ -6,10 +6,10 @@ stockbff01-mjp:
   replicaCount: 1
 
   route:
-    enabled: true
+    enabled: false
 
   ingress:
-    enabled: false
+    enabled: true
     host: inventory-svc-stock
     namespaceInHost: true
     tlsSecretName: gsi-learning-ocp311-cluster
