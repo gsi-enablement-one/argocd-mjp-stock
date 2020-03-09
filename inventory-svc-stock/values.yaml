@@ -4,8 +4,11 @@ global:
 
 stockbff01-mjp:
   replicaCount: 1
-  
-  ingress:
+
+  route:
     enabled: true
+
+  ingress:
+    enabled: false
     tlsSecretName: gsi-learning-ocp311-cluster
 
